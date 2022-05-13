@@ -1,0 +1,23 @@
+train.epochs = 200
+train.loss_fn = "l1"
+train.optimizer = @Adam
+
+SGD.lr = 0.01
+SGD.momentum = 0.9
+SGD.dampening = 0
+SGD.weight_decay = 0
+
+RMSprop.lr = 0.01
+RMSprop.alpha = 0.99
+RMSprop.eps = 1e-8
+RMSprop.weight_decay = 0
+RMSprop.momentum = 0
+
+Adam.lr = 0.001
+Adam.betas = (0.9, 0.999)
+Adam.eps = 1e-8
+Adam.weight_decay=0
+
+Model.in_channels = 2
+Model.hidden_size = 512
+Model.out_channels = 3
